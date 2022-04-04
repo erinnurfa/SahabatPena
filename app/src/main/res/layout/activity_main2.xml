@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <!--menggunakan fitur textview, dengan diberi keterangan teksnya "Pengguna",
+    diberi nama id yaitu teksDetailPengguna,
+    mempunyai ukuran teks sebesar 22sp dan dicetak tebal (bold),
+    diatur agar biisa treletak ditengah-tengah dengan menggunakan gravity center-->
+    <TextView
+        android:id="@+id/teksDetailPengguna"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/pengguna"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksSelamat" />
+
+    <!--menggunakan fitur button, dengan diberi keterangan teksnya "CEK GITHUB",
+    diberi nama id yaitu tombolGithub,
+    posisinya terlketak di bawah imageview-->
+    <Button
+        android:id="@+id/tombolGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/cek_github"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!--menggunakan fitur button, dengan diberi keterangan teksnya "Koleksi",
+    diberi nama id yaitu tombolTentang-->
+    <Button
+        android:id="@+id/tombolTentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/koleksi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombolGithub"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <!--menggunakan fitur textview, dengan diberi keterangan teksnya "Selamat Datang",
+    diberi nama id yaitu teksSelamat,
+    margin top sebesar 76 dp,
+    diatur agar lokasinya di tengah-tengah menggunakan gravity center-->
+    <TextView
+        android:id="@+id/teksSelamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/selamat_datang"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--penambahan gambar dengan menggunakan imageView,
+    berisi gambar dari rosource drawable,
+    mengisi nama file dengan kata.jpg, dengan content description "katakata ya"-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="289dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksDetailPengguna"
+        app:srcCompat="@drawable/kata"
+        android:contentDescription="@string/katakata_ya" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

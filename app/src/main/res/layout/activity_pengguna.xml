@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PenggunaActivity">
+
+    <!--menggunakan fitur textview, dengan diberi keterangan teksnya "VARIAN KOLEKSI",
+    diberi nama id yaitu textview2,
+    ukuran teksnya diatur sebesar 30sp,
+    android textstyle="bold" yang bertujuan agar teksnya tebal-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/varian_koleksi"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--penambahan gambar dengan menggunakan imageView,
+    diberi nama id yaitu gambarCerpen,
+    berisi gambar dari rosource drawable,
+    mengisi nama file dengan cerpen.jpg, dengan content description cerpen ya-->
+    <ImageView
+        android:id="@+id/gambarCepen"
+        android:layout_width="134dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/cerpen_ya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/puisiku" />
+
+    <!--penambahan gambar dengan menggunakan imageView,
+    berisi gambar dari rosource drawable,
+    mengisi nama file dengan puisi.jpg, dengan content description puisi ya-->
+    <ImageView
+        android:id="@+id/gambarPuisi"
+        android:layout_width="122dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/puisi_ya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/cerpen" />
+
+    <!--penambahan gambar dengan menggunakan imageView,
+    diberi nama id yaitu gambarQuotes,
+    berisi gambar dari rosource drawable,
+    mengisi nama file dengan quotes.jpg, dengan content description quotes ya-->
+    <ImageView
+        android:id="@+id/gambarQuotes"
+        android:layout_width="134dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="132dp"
+        android:contentDescription="@string/quotes_ya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarPuisi"
+        app:srcCompat="@drawable/quotes" />
+
+    <!--menggunakan fitur button, dengan diberi keterangan teksnya "Cerpen",
+    margin topnya 24 dp,
+    diberi nama id yaitu tombolCerpen-->
+    <Button
+        android:id="@+id/tombolCerpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/cerpen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarCepen" />
+
+    <!--menggunakan fitur button, dengan diberi keterangan teksnya "Puisi",
+    margin topnya 24 dp,
+    diberi nama id yaitu tombolPuisi-->
+    <Button
+        android:id="@+id/tombolPuisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/puisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarPuisi" />
+
+    <!--menggunakan fitur button, dengan diberi keterangan teksnya "Quotes",
+    margin topnya 24 dp,
+    diberi nama id yaitu tombolQuotes-->
+    <Button
+        android:id="@+id/tombolQuotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/quotes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarQuotes"
+        app:layout_constraintVertical_bias="0.067" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

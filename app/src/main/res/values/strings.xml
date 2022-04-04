@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sahabat Pena</string>
+    <string name="hello_sahabat_pena">Hello Sahabat Pena!</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="masukkan_nama_pengguna">masukkan nama pengguna</string>
+    <string name="masukkan_password">masukkan password</string>
+    <string name="masukkan_nama">masukkan nama</string>
+    <string name="cek_github">CEK GITHUB</string>
+    <string name="pengguna">Pengguna</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="tentang_pengguna">Tentang Pengguna</string>
+    <string name="data_pengguna">Data Pengguna</string>
+    <string name="selamat">Selamat</string>
+    <string name="cerpen_ya">cerpen ya</string>
+    <string name="puisi_ya">puisi ya</string>
+    <string name="quotes_ya">quotes ya</string>
+    <string name="cerpen">Cerpen</string>
+    <string name="puisi">Puisi</string>
+    <string name="quotes">Quotes</string>
+    <string name="katakata_ya">katakata ya</string>
+    <string name="quotess">QUOTESS</string>
+    <string name="aneka_puisi">Aneka Puisi</string>
+    <string name="aneka_cerpen">Aneka Cerpen</string>
+    <string name="aneka_quotes">Aneka Quotes</string>
+    <string name="quot_senja_tak_pernah_salah_hanya_kenangan_yang_membuatnya_basah_quot">\"Senja tak pernah salah, hanya kenangan yang membuatnya basah\"</string>
+    <string name="quot_dari_hujan_aku_belajar_bahasa_air_bagaimana_berkali_kali_jatug_tanpa_sedikitpun_mengeluh_pada_takdir_quot">\"Dari hujan aku belajar bahasa air, bagaimana berkali-kali jatug tanpa sedikitpun mengeluh pada takdir\"</string>
+    <string name="quot_semesta_mempunyai_banyak_cara_untuk_buat_kita_bahagia_quot">\"Semesta mempunyai banyak cara untuk buat kita bahagia\"</string>
+    <string name="quot_jarak_tau_seberapa_banyak_kamu_menyimpan_rindu_quot">\"Jarak tau, seberapa banyak kamu menyimpan rindu\"</string>
+    <string name="varian_koleksi">VARIAN KOLEKSI</string>
+    <string name="koleksi">Koleksi</string>
+    <string name="quot_dari_hujan_aku_belajar_bahasa_air_bagaimana_berkali_kali_jatuh_tanpa_sedikitpun_mengeluh_pada_takdir_quot">quot_dari_hujan_aku_belajar_bahasa_air_bagaimana_berkali_kali_jatuh_tanpa_sedikitpun_mengeluh_pada_takdir_quot</string>
+    <string name="dari_hujan_aku_belajar_bahasa_air_bagaimana_berkali_kali_jatuh_tanpa_sedikitpun_mengeluh_pada_takdir">Dari hujan aku belajar bahasa air, bagaimana berkali-kali jatuh, tanpa sedikitpun mengeluh pada takdir</string>
+    <string name="masukkan_username">masukkan username</string>
+</resources>
